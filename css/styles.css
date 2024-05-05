@@ -1272,11 +1272,12 @@ textarea:focus::-webkit-input-placeholder {
   #main-navigation .show-small {
     height: calc(120px - 1em) !important;
     width: 83px !important;
-    margin: 0 0 0 225px;
+    left: 78%;
+    margin: 0 auto;
   }
   .porfolio {
-    background-size: 100% 207px;
-    height: 202px;
+    background-size: 100% 227px;
+    height: 222px;
   }
   .welcome {
     display: flex;
@@ -1297,40 +1298,41 @@ textarea:focus::-webkit-input-placeholder {
   }
   .porfolio h1 {
     font-family: "Black Ops One", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 500;
     color: #194660;
     text-align: center;
-    width: 209px;
+    width: 100%;
+    max-width: 450px;
     height: 16px;
     margin-top: 50px;
   }
   .tag {
     position: absolute;
-    left: 15%;
+    left: 17%;
     right: 15%;
     /* text-align: center; */
     margin: auto;
   }
   .position {
     width: 100%;
-    max-width: 250px;
-    height: 88px;
+    max-width: 300px;
+    height: 108px;
     margin: auto;
   }
   .position h1 {
     color: white;
     font-family: "Black Ops One", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 500;
     margin: 14px 0 14px 0;
   }
   .position h3 {
     color: white;
     font-family: "Black Ops One", sans-serif;
     text-align: center;
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
     margin: 10px auto;
   }
 
@@ -1338,40 +1340,40 @@ textarea:focus::-webkit-input-placeholder {
     color: white;
     font-family: "Black Ops One", sans-serif;
     text-align: center;
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 500;
     margin: 10px auto;
   }
   .intro {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 200px;
+    width: 260px;
     height: 18px;
     margin: 0 auto;
   }
   #bracket1 {
-    width: 8.5px;
-    height: 9px;
-    margin: 0;
+    width: 14.5px;
+    height: 15px;
+    margin: 25px 0 20px 0;
   }
   #bracket2 {
-    width: 8.5px;
-    height: 9px;
-    margin: 0;
+    width: 14.5px;
+    height: 15px;
+    margin: 25px 0 20px 0;
   }
   #coding {
     /* position: absolute; */
     left: 85%;
     top: 75%;
     z-index: 1;
-    width: 52px;
-    height: 35px;
+    width: 62px;
+    height: 45px;
     margin: auto;
   }
   .about {
-    background-size: 100% 470px;
-    height: 470px;
+    background-size: 100% 510px;
+    height: 510px;
   }
   .title1 h2 {
     text-decoration: underline;
@@ -1394,7 +1396,7 @@ textarea:focus::-webkit-input-placeholder {
     width: 276px;
     height: 167px;
     font-family: "Poppins", sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
     margin: 0 auto;
   }
@@ -1430,10 +1432,16 @@ textarea:focus::-webkit-input-placeholder {
     text-align: center;
   }
   .container-skill {
-    margin: 0 10px 0 20px;
+    margin: 0 auto;
+    display: flex;
+    position: absolute;
+    left: 10%;
+    right: 10%;
   }
   .side-left {
-    width: 300px;
+    width: 100%;
+    max-width: 30em;
+    margin-bottom: 20px;
   }
   .front-end {
     margin-right: 10px;
@@ -1465,32 +1473,32 @@ textarea:focus::-webkit-input-placeholder {
   }
   #skill-name1 {
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
     margin-left: 3px;
   }
   #skill-name2 {
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
     margin-left: 6px;
   }
   #skill-name3 {
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
     margin-left: 4.5px;
   }
   #skill-name4 {
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
     margin-left: 4px;
   }
   #skill-name5 {
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
     margin-left: 3px;
   }
   #skill-name6 {
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
     margin-left: 2px;
   }
   #percent1 {
@@ -1538,7 +1546,7 @@ textarea:focus::-webkit-input-placeholder {
   }
   .project-container {
     max-width: 320px;
-    margin: 0 15px 0 20px;
+    margin: 0 auto;
   }
   .project-container div {
     margin: 0 10px 30px 10px;
@@ -1575,8 +1583,8 @@ textarea:focus::-webkit-input-placeholder {
     font: 700 13px "Poppins", sans-serif;
   }
   .contact {
-    background-size: 100% 430px;
-    height: 430px;
+    background-size: 100% 480px;
+    height: 470px;
   }
   .title4 h2 {
     font-size: 15px;
@@ -1584,17 +1592,22 @@ textarea:focus::-webkit-input-placeholder {
     text-align: center;
   }
   .contact-container {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 800;
-    margin-left: 80px;
+    /* margin-left: 80px; */
+    margin: 20px auto;
   }
   .main-contact {
+    width: 100%;
+    max-width: 200px;
+    /* text-align: center; */
     display: flex;
     align-items: center;
     height: 40px;
+    margin: 10px auto;
   }
   .icon {
-    width: 33px;
+    width: 35px;
     height: 33px;
     margin: 0 6px 0 0;
   }
@@ -1608,7 +1621,10 @@ textarea:focus::-webkit-input-placeholder {
     font-family: "Poppins", sans-serif;
     font-size: 12px;
     font-weight: 800;
-    margin-left: 40px;
+    /* margin-left: 40px; */
+    margin: 0 auto;
+    width: 100%;
+    max-width: 270px;
   }
   #message-box {
     background: url(../images/messagge-box.png);
@@ -1616,6 +1632,7 @@ textarea:focus::-webkit-input-placeholder {
     width: 250px;
     height: 240px;
     margin: 0 15px 0 15px;
+    border-radius: 10px;
   }
   .box1 {
     width: 220px;
@@ -1688,37 +1705,41 @@ textarea:focus::-webkit-input-placeholder {
     height: 25px;
   }
   .top {
-    height: 14px;
+    height: 15px;
     width: 100%;
   }
   .bottom {
     z-index: 1;
-    height: 14px;
+    height: 15px;
     width: 100%;
   }
   #footer {
-    background-size: 100% 95px;
-    height: 95px;
+    background-size: 100% 122px;
+    height: 125px;
   }
   #footer h1 {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 800;
-    margin: 0 116px 0 135px;
+    margin: 0 auto;
+    text-align: center;
   }
   .social {
-    margin: 0 0 4px 135px;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
   }
   .social-icon:hover {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   }
   .social-icon {
-    margin: 0 15px 0 0;
-    width: 17px;
-    height: 17px;
+    margin: 0 8px;
+    width: 19px;
+    height: 19px;
   }
   #copyright {
-    margin: 0 110px 0 130px;
-    font: 7px "Poppins", sans-serif;
+    margin: 10px auto;
+    font: 12px "Poppins", sans-serif;
     font-weight: 500;
   }
 }
