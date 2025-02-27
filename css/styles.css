@@ -1465,15 +1465,17 @@ textarea:focus::-webkit-input-placeholder {
   }
   .container-skill {
     margin: 0 auto;
-    display: flex;
-    position: absolute;
-    left: 10%;
-    right: 10%;
+    display: grid;
+    /* position: absolute; */
+    /* left: 10%; */
+    /* right: 10%; */
+    justify-content: center;
   }
   .side-left {
     width: 100%;
     max-width: 30em;
     margin-bottom: 20px;
+    /* margin-left: -35px; */
   }
   .front-end {
     margin-right: 10px;
@@ -1615,8 +1617,8 @@ textarea:focus::-webkit-input-placeholder {
     font: 700 13px "Poppins", sans-serif;
   }
   .contact {
-    background-size: 100% 480px;
-    height: 470px;
+    background-size: 100% 520px;
+    height: 510px;
   }
   .title4 h2 {
     font-size: 15px;
